@@ -2156,7 +2156,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/mistald.github.io/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1686715366393),
+    lastupdate: new Date(1687164499415),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2181,7 +2181,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       message: {"enable":true,"icon":{"default":"fa-solid fa-info-circle light-blue","quection":"fa-solid fa-question-circle light-blue"},"time":{"default":5000,"quection":20000},"position":"topRight","transitionIn":"bounceInLeft","transitionOut":"fadeOutRight","titleColor":"var(--color-text)","messageColor":"var(--color-text)","backgroundColor":"var(--color-card)","zindex":2147483647,"copyright":{"enable":true,"title":"知识共享许可协议","message":"请遵守 CC BY-NC-SA 4.0 协议。","icon":"far fa-copyright light-blue"},"aplayer":{"enable":true,"play":"fa-solid fa-play","pause":"fa-solid fa-pause"},"rightmenu":{"enable":true,"notice":true}},
       
       aplayer: {
-        id: 88346270,
+        id: 8493988754,
         enable:true
       },
       
@@ -2356,7 +2356,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-moon fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-moon fa-fw'></i>光/暗
                 </a>
               <li>
             
@@ -2487,7 +2487,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box header toggle-mode-btn">
-                  <i class='fa-solid fa-moon fa-fw'></i>暗黑模式
+                  <i class='fa-solid fa-moon fa-fw'></i>光/暗
                 </a>
               <li>
             
@@ -2567,13 +2567,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               active-action="action-mistaldgithubioabout">
               <i class='fa-solid fa-info-circle fa-fw'></i><p>关于</p>
-            </a>
-          
-            <a href="/mistald.github.io/"
-              
-              
-              active-action="action-mistaldgithubio">
-              <i class='fa-solid fa-moon fa-fw'></i><p>光/暗</p>
             </a>
           
         
@@ -2847,7 +2840,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-      <a href="/mistald.github.io/tags/md%E8%AF%AD%E6%B3%95/" style="font-size: 14px; color: #999">md语法</a> <a href="/mistald.github.io/tags/%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%A0%87%E7%AD%BE/" style="font-size: 14px; color: #999">另一个标签</a> <a href="/mistald.github.io/tags/%E6%A0%87%E7%AD%BE-1/" style="font-size: 14px; color: #999">标签 1</a>
+      <a href="/mistald.github.io/tags/md%E8%AF%AD%E6%B3%95/" style="font-size: 14px; color: #999">md语法</a> <a href="/mistald.github.io/tags/%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%A0%87%E7%AD%BE/" style="font-size: 24px; color: #555">另一个标签</a> <a href="/mistald.github.io/tags/%E6%A0%87%E7%AD%BE-1/" style="font-size: 24px; color: #555">标签 1</a>
     </div>
   </section>
 
@@ -2890,7 +2883,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         list-max-height='320px'
         server='netease'
         type='playlist'
-        id='88346270'
+        id='8493988754'
         list-folded='true'>
       </meting-js>
     
@@ -3227,7 +3220,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
               Metings.forEach((item, index) => {
                 const aplayerItem = item.aplayer; if(!aplayerItem) return;
                 const rightAplayerCheck = 'true' === 'true'
-                  && item.meta.id === '88346270';
+                  && item.meta.id === '8493988754';
                 if(rightAplayerCheck && typeof RightMenuAplayer !="undefined") RightMenuAplayer.checkAPlayer();
                 if(aplayerItem.events.events.play.every(item => {return item.name !== 'messagePlay'})) {
                   aplayerItem.on('play', function messagePlay() {
